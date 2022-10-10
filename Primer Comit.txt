@@ -1,4 +1,4 @@
-Daniel Hilarion = Poruct owner
+Daniel Hilarion = Product owner
 Daryl Giselle = 
 Robert Montero = 
 Mateo Rodriguez =
