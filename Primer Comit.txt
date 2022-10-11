@@ -1,5 +1,5 @@
 Daniel Hilarion = Product owner
 Daryl Giselle = 
 Robert Montero = 
-Mateo Rodriguez =
+Mateo Rodriguez = Analista
 Juan Pablo =
