@@ -1,7 +1,8 @@
 Proyecto web 
 ciclo 4
 
-Mision-Team "Enterprise (grandTec)"
+Mision-Team "Enterprise (grandTecn)"
+Significado: Grandes Tecnologias
 
 Descripcion del proyecto a realizar:
 
