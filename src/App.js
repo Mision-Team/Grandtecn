@@ -3,25 +3,27 @@ import logo from './logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-/*import {
-  BrowserRouter as Router,
-  Switch,
+import {
+  BrowserRouter,
   Route,
-} from 'react-router-dom';
-*/
+  Routes,
+  Link,
+} from "react-router-dom";
+
 
 //Importar los componentes que vamos utilizando.
 //import Componente from './components/Componente';
 import CrudAdmin from './components/CrudAdmin';
-//import CrudCli from './components/CrudCli';
+import CrudCli from './components/CrudCli';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
           <nav>
             <ul class="Opciones">
-            <li><a href="CrudAdmin.js">Administrador</a></li>
-            <li><a href="CrudCli.js">Cliente</a></li>
+            <li> <Link to="/CrudAdmin">Administrador</Link></li>
+            <li> <Link to="/CrudCli">Cliente</Link></li>
             </ul>
           </nav>
           <br></br>
@@ -40,29 +42,15 @@ function App() {
       <h1>Bienvenido</h1>
       <br></br>
       <br></br>
+      <Routes>
+        <Route exact path='/CrudAdmin' element={<CrudAdmin/>}/>
+        <Route exact path='/CrudCli' element={<CrudCli/>}/>
+      </Routes>
 
-      <CrudAdmin/>
     </div>
+  </BrowserRouter>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
     
   );
 }
