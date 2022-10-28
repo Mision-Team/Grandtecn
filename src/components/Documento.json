@@ -1,0 +1,9 @@
+[
+    {
+        "Id": 1, 
+        "Productos": "Corazon juguete",
+        "Nombre": "Corazon juguete",
+        "Descripcion": "Corazon de juguetes azul de 15*50 cm",
+        "Stock": 15
+    }
+]
